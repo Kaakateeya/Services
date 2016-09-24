@@ -10,11 +10,14 @@ namespace WebApIdemo.App_Start
     {
         public static void Register(HttpConfiguration config)
         {
+
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                //routeTemplate: "api/{controller}/{id}",
                 //routeTemplate: "api/{controller}/{id1}/{id2}",
+                routeTemplate: "CustomerController/{controller}/{id1}",
                 defaults: new { id = RouteParameter.Optional }
+
             );
 
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.

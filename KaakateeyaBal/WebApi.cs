@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace KaakateeyaBal
 {
-    class Program
+    public interface WebApi
     {
-        static void Main(string[] args)
-        {
-        }
+
+        public abstract void aMovieDetails();
+        public abstract int aMovieDetails();
+       
+
     }
+
+
 }

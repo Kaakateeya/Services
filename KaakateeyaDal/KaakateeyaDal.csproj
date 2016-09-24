@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,13 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="GetMoviesData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KaakateeyaBal\KaakateeyaBal.csproj">
+      <Project>{33f1b533-96d3-4ce9-af45-f34110f23766}</Project>
+      <Name>KaakateeyaBal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KaakateeyaMl\KaakateeyaMl.csproj">
       <Project>{ea429d43-2a84-4746-9ed5-3da6b32a724e}</Project>
       <Name>KaakateeyaMl</Name>

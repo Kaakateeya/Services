@@ -267,11 +267,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiControllers\CustomerController\CustomerController.cs" />
     <Compile Include="Api\HomeController.cs" />
     <Compile Include="Api\Movie.cs" />
-    <Compile Include="Api\ValuesController.cs">
-      <BrowseToURL>www.Valuesapi.com</BrowseToURL>
-    </Compile>
+    <Compile Include="Api\TestController.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -279,10 +278,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ApiControllers\CommonController\" />
+    <Folder Include="ApiControllers\EmployeeController\" />
     <Folder Include="App_Data\" />
+    <Folder Include="DesignPages\CustomerPages\" />
+    <Folder Include="DesignPages\EmployeePages\" />
+    <Folder Include="DesignPages\StaticPages\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KaakateeyaBal\KaakateeyaBal.csproj">
+      <Project>{33f1b533-96d3-4ce9-af45-f34110f23766}</Project>
+      <Name>KaakateeyaBal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KaakateeyaMl\KaakateeyaMl.csproj">
+      <Project>{ea429d43-2a84-4746-9ed5-3da6b32a724e}</Project>
+      <Name>KaakateeyaMl</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

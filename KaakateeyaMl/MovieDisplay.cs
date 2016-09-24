@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace KaakateeyaMl
 {
-    class Program
+    public class GetData
     {
-        static void Main(string[] args)
-        {
-        }
+        //MovieDisplay MVD = new Derived();
+        //int iCount = MVD.MovieDisplayList();
     }
+
+
 }

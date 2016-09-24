@@ -1,8 +1,10 @@
 D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaDal.exe.config
 D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaDal.exe
 D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaDal.pdb
+D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaBal.exe
+D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaMl.dll
+D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaBal.pdb
+D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaMl.pdb
 D:\KaakateeyaNewproject\Services\KaakateeyaDal\obj\Debug\KaakateeyaDal.csprojResolveAssemblyReference.cache
 D:\KaakateeyaNewproject\Services\KaakateeyaDal\obj\Debug\KaakateeyaDal.exe
 D:\KaakateeyaNewproject\Services\KaakateeyaDal\obj\Debug\KaakateeyaDal.pdb
-D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaMl.exe
-D:\KaakateeyaNewproject\Services\KaakateeyaDal\bin\Debug\KaakateeyaMl.pdb
