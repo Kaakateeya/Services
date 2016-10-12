@@ -1,6 +1,0 @@
-D:\KaakateeyaNewproject\Services\KaakateeyaMl\bin\Debug\KaakateeyaMl.exe.config
-D:\KaakateeyaNewproject\Services\KaakateeyaMl\bin\Debug\KaakateeyaMl.exe
-D:\KaakateeyaNewproject\Services\KaakateeyaMl\bin\Debug\KaakateeyaMl.pdb
-D:\KaakateeyaNewproject\Services\KaakateeyaMl\obj\Debug\KaakateeyaMl.csprojResolveAssemblyReference.cache
-D:\KaakateeyaNewproject\Services\KaakateeyaMl\obj\Debug\KaakateeyaMl.exe
-D:\KaakateeyaNewproject\Services\KaakateeyaMl\obj\Debug\KaakateeyaMl.pdb
